@@ -1,0 +1,2421 @@
+:root {
+  --brand-dim-gray-color: #e6dfd8;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&amp;family=Lato:wght@300;400;700;900&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap");
+
+
+:root {
+  --brand-red: #df0067;
+  --brand-font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* section sticky  */
+
+.section-nav.sticky {
+  position: fixed !important;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  top: 80px;
+  transition: all 0.7s ease 0s;
+}
+
+.admin-bar .section-nav.sticky {
+  top: 113px;
+  transition: all 0.7s ease 0s;
+}
+
+.azienda-top-area {
+  margin-bottom: 50px;
+}
+
+.section-padding {
+  padding: 25px 0;
+}
+
+.azienda-top-area .azienda-top-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 221px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 180px;
+  margin-bottom: 90px;
+}
+
+.azienda-top-area .azienda-top-title span {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  font-weight: normal;
+  color: rgb(223, 0, 103);
+  font-size: 55px;
+  line-height: 35px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.azienda-top-area .azienda-subtitle {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs {
+  border: none;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li {
+  width: 25%;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li {
+  display: flex;
+  justify-content: center;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li a {
+  position: relative;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button {
+  border: none;
+  position: relative;
+  color: rgb(52, 52, 52);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button.active {
+  font-size: 45px;
+  padding-bottom: 30px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+}
+
+.azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button.active:after {
+  content: "";
+  height: 9px;
+  width: 100%;
+  background: rgb(223, 0, 103);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.azienda-tabs-wrap .tab-content .tab-pane {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  /* display: flex; */
+  align-items: end;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.azienda-tabs-wrap .tab-content .tab-pane::after {
+  content: "";
+  background: #000;
+  opacity: 0.6;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.zienda-single-tab-content-wrap {
+  display: flex;
+  align-items: end;
+  height: 100%;
+  justify-content: center;
+}
+
+.azienda-tabs-wrap .tab-content .tab-pane {
+  height: 870px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.azienda-tabs-wrap .tab-content #bregnano {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider.second-block {
+  padding-left: 20px;
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider.second-block ul {
+  column-count: 2;
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider.second-block ul li {
+  list-style: none;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: var(--brand-font-family);
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider h2 {
+  margin-bottom: 20px;
+  font-size: 52px;
+  font-family: var(--brand-font-family);
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: var(--brand-font-family);
+  line-height: 32px;
+}
+
+.zienda-single-tab-content-wrap .azienda-single-slider.first-block {
+  max-width: 295px;
+  margin-right: 100px;
+}
+
+section {
+  position: relative;
+}
+
+.eu-scisiamo-small-section-title {
+  text-transform: uppercase;
+  position: relative;
+  transform: rotate(-90deg);
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  padding: 0 6px;
+  line-height: 1;
+  padding-bottom: 6px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.azienda-tabs-section {
+  margin-top: 50px;
+}
+
+.azienda-section .eu-scisiamo-small-section-title {
+  top: 150px;
+}
+
+.eu-scisiamo-small-section-title span {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: var(--brand-red);
+  top: 100%;
+  left: 0;
+}
+
+.sedi-section-wrap h2,
+.lesixp-section h2 {
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.sedi-top-title p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.sedi-section-wrap h2 span,
+.lesixp-section h2 span {
+  display: block;
+}
+
+.sedi-section-wrap p {
+  font-size: 18px;
+}
+
+.lesixp-section-wrap p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.lesixp-section-wrap h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: rgb(45, 45, 45);
+}
+
+p.eu-scisiamo-small-section-title.small-tilt {
+  top: 140px;
+}
+
+#azienda {
+  padding-top: 80px;
+}
+
+#workflow .small-tilt {
+  left: 0;
+}
+
+.header-slider-bottom-area,
+#workflow {
+  padding-top: 7rem;
+}
+
+.mission-vission-section {
+  height: 1014px;
+}
+
+#certificazioni {
+  padding-bottom: 0;
+  margin-bottom: -20px;
+}
+
+.mission-vission-section .mission-vission-section-wrap {
+  height: 100%;
+  align-items: center !important;
+}
+
+#lefive .mt-5 {
+  margin-top: 0 !important;
+}
+
+.chi-siamo-mv-single {
+  width: 50%;
+}
+
+.mission-vission-section .nav button {
+  text-transform: uppercase;
+}
+
+.chi-siamo-mv-single {
+  height: 100%;
+  justify-content: center;
+  align-items: end;
+}
+
+.chi-siamo-mv-single.first-half {
+  background: var(--brand-red);
+  margin-right: 0 !important;
+}
+
+.chi-siamo-mv-single.first-half button {
+  background: transparent !important;
+  color: #fff;
+  margin-right: 190px;
+}
+
+.chi-siamo-mv-single.first-half button.active {
+  font-size: 90px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: right;
+  margin-right: 160px;
+}
+
+.chi-siamo-mv-single.first-half button {
+  text-align: right;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.chi-siamo-mv-single.first-half button:first-child {
+  margin-bottom: 160px;
+}
+
+.chi-siamo-mv-single.first-half button.active:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  background: #fff;
+  bottom: -13px;
+  left: 100%;
+}
+
+.chi-siamo-mv-single.second-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(109, 109, 109, 0.4) 100%);
+}
+
+.chi-siamo-mv-single.second-half .tab-pane.active {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: initial;
+  align-items: center;
+  background-image: url(../images/chi-siamo/mission-vission-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.chi-siamo-mv-single.second-half .tab-pane .mission-vission-single-tab {
+  margin-bottom: 200px;
+  margin-left: 80px;
+}
+
+.chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+  width: 380px;
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+}
+
+/* Mission and Vission  */
+
+.lesixp-section-wrap {
+  margin-bottom: 140px;
+}
+
+#lefive .lesixp-section-wrap {
+  margin-bottom: 40px;
+}
+
+/* LP six  */
+
+.lesixp-list-item-section {
+  min-height: 800px;
+  background-color: #ddd;
+  background-image: url(../images/chi-siamo/lpe_six_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li p {
+  font-size: 35px;
+  font-family: var(--brand-font-family);
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li {
+  display: flex;
+  padding: 30px 50px;
+  padding-left: 30px;
+  position: relative;
+  border-bottom: 1px solid;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.chi-siamo-number-slider .number-single-item a {
+  display: block;
+  pointer-events: none;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li:last-child {
+  border: none !important;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li img.active {
+  display: none;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show img.active {
+  display: block;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show img {
+  display: none;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li p.description {
+  font-size: 25px;
+  text-align: left;
+  width: 375px;
+  opacity: 0;
+  visibility: hidden;
+  font-weight: 400;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li svg {
+  font-size: 45px;
+  position: absolute;
+  left: 0;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li p {
+  width: 50%;
+}
+
+.sesixp-list-wrap {
+  padding-top: 100px;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show p.description {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show {
+  padding-left: 100px;
+  border: none;
+  /* background: rgba(0, 0, 0, 0.4); */
+  z-index: 1;
+  border-bottom: none !important;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li:before {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 130%;
+  top: 0;
+  left: -15%;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show:before {
+  opacity: 1;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show p.title {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 285px;
+  background: var(--brand-red);
+  bottom: 0;
+  left: 9%;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show svg {
+  padding-left: 48px;
+  color: #fff;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li.show p.description {
+  color: #fff;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li p {
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.lesixp-list-item-section .sesixp-list-wrap ul li img {
+  width: 70px;
+}
+
+/* persone css styleing start now */
+.persone-section-wrap .thumb {
+  max-width: 88%;
+  margin: auto;
+}
+
+.persone-section-wrap {
+  height: auto;
+  position: relative;
+}
+
+.persone-top-title {
+  position: absolute;
+  left: 18%;
+  bottom: -266px;
+}
+
+.persone-top-title h2 {
+  font-size: 131px;
+  line-height: 125px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  max-width: 70%;
+}
+
+.persone-top-title h2 span {
+  color: #df0067;
+}
+
+/* team-members styleing now */
+.team-members {
+  background-color: #a8ada9;
+  margin-top: 320px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.persone-section .team-member {
+  -webkit-justify-content: start;
+  justify-content: start;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.persone-section .team-member .team-member-item {
+  width: 415px;
+  height: 415px;
+}
+
+.persone-section .team-member .team-member-item:before {
+  display: none;
+}
+
+.persone-section .team-member-title span {
+  display: block;
+}
+
+.team-member-item:before {
+  position: absolute;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+}
+
+.team-member-item {
+  /* max-width: 33%; */
+
+  height: 320px;
+  width: 320px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-member-top-title {
+  padding: 60px 20px 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.team-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.team-member-title {
+  font-size: 76px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #f3f1ee;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.team-member-title span {
+  font-size: 76px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #f3f1ee;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-title {
+  font-size: 24px;
+  line-height: 73px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: var(--brand-font-family);
+}
+
+.team-button {
+  margin-left: 80px;
+}
+
+.team-button {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-button svg {
+  color: #fff;
+  font-size: 30px;
+}
+
+/*  Team Bottom section styleing now */
+.team-bottom {
+  padding: 80px 0px;
+  background-color: #fff;
+}
+
+.team-bottom-title h4 {
+  font-size: 25px;
+  line-height: 30px;
+  color: #121212;
+  font-weight: 400;
+  font-family: var(--brand-font-family);
+}
+
+.team-bottom-title ul {
+  list-style: none;
+  margin-top: 25px;
+}
+
+.team-bottom-title ul,
+.team-bottom-title ul p {
+  font-size: 18px;
+}
+
+.team-bottom-title ul li {
+  font-size: 18px;
+  line-height: 30px;
+  color: #121212;
+  font-weight: 400;
+  font-family: var(--brand-font-family);
+}
+
+/* valori section styleing start now */
+.valori>p.eu-scisiamo-small-section-title.small-tilt {
+  top: 153px;
+  text-transform: uppercase;
+}
+
+.valori-single-item h1 {
+  font-size: 221px;
+  line-height: 180px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+.valori-single-item h1 span {
+  display: block;
+  font-size: 18px;
+  line-height: 3;
+  text-transform: uppercase;
+  color: #c91c7b;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 8px;
+}
+
+.valori-single-item p {
+  font-size: 45px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #2d2d2d;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* service slider section styleing now */
+
+.valori-slider {
+  left: 0px;
+  position: relative;
+  margin-right: 14px;
+}
+
+.valori-slider-arrow svg {
+  color: #000;
+  font-size: 30px;
+}
+
+.valori-sliders {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 70px 0px;
+  gap: 30px;
+}
+
+.valori-sliders .slick-track {
+  /* margin-left: -200px; */
+}
+
+.valori-single-slider-item {
+  min-width: 400px;
+  height: 478px;
+  border-radius: 0px;
+  border: 0.88px solid #ffffff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.valori-sliders .slick-slide {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.valori-sliders .slick-list {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.valori-sliders .valori-single-info {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -150px;
+  padding: 20px 40px 0px;
+  transition: 0.5s;
+  padding-right: 100px;
+}
+
+
+.valori-single-slider-item:hover .valori-single-info {
+  bottom: -16px;
+  padding-right: 100px;
+}
+
+.valori-sliders .slick-current .valori-single-slider-item .valori-single-info {
+  bottom: -16px;
+  padding-right: 100px;
+}
+
+.valori-slider-wrap .active .valori-single-info {
+  bottom: 0px;
+}
+
+.valori-single-info h4 {
+  font-size: 40px;
+  line-height: 34px;
+  color: #000000;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+}
+
+.valori-single-info p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+  font-weight: 400;
+  font-family: var(--brand-font-family);
+  margin-top: 30px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.valori-single-slider-item:first-child p {
+  max-height: inherit;
+}
+
+.valori-single-info:hover p {
+  max-height: inherit;
+}
+
+.valori-single-info hr {
+  width: 205px;
+  height: 9px;
+  border-radius: 0px;
+  opacity: 1;
+  background-color: #df0067;
+}
+
+.persone-section .small-tilt {
+  left: 20px !important;
+}
+
+/* valori-timeline section styleing now */
+.valori-timeline {
+  padding: 50px 0px;
+}
+
+/* .valori-timeline-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.valori-timeline-single-item {
+  width: 100%;
+}
+
+.r_vls_right.r_vls_sl {
+  background-size: cover !important;
+}
+
+.valori-timeline-single-item .val-timeline-slider-container {
+  background-color: #333;
+}
+
+.valori-timeline-single-item .val-timeline-slider-container:nth-child(3) {
+  background: blueviolet;
+}
+
+.valori-timeline-single-item .val-timeline-slider-container:nth-child(2) {
+  background: #596f63;
+}
+
+.valori-timeline-single-item h2 {
+  font-size: 55px;
+  line-height: 60px;
+  color: #fdfdfd;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.valori-timeline-single-item h2 span {
+  font-size: 55px;
+  line-height: 60px;
+  color: #fdfdfd;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.valori-timeline-single-item p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #f3f1ee;
+  font-weight: 400;
+  font-family: var(--brand-font-family);
+  margin-top: 110px;
+}
+
+.valori-img-single-item {
+  opacity: 0.769;
+  max-width: 991px;
+  background-color: #596f63;
+}
+
+.valori-img-single-item {
+  width: 100%;
+  height: 100%;
+}
+
+.valori-img-single-item {
+  position: relative;
+}
+
+.valori-img-single-item.right {
+  position: relative;
+}
+
+.valori-timeline-container {
+  position: relative;
+}
+
+.r_vls_sl {
+  width: 50%;
+  float: left;
+  padding: 140px;
+  padding-left: 190px;
+  padding-top: 214px;
+  height: 959px;
+}
+
+.r_vls_left_con {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*.valori-timeline-container:after {
+  position: absolute;
+  content: "";
+  background-color: rgba(89, 111, 99, 0.77);
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background-image: url(../images/chi-siamo/valori-timeline-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-blend-mode: multiply;
+  top: 0;
+}*/
+
+.valori-timeline-container .slick-arrow {
+  display: none !important;
+}
+
+.r_vls_right.r_vls_sl {
+  opacity: 0.4;
+}
+
+.valori-timeline-container .slick-prev.slick-arrow {
+  display: block !important;
+  position: absolute;
+  right: 30px;
+  z-index: 99;
+  top: 60px;
+  background: transparent;
+  border: 1px solid #fff;
+  height: 90px;
+  width: 90px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 35px;
+  transform: rotate(90deg);
+  z-index: 99;
+}
+
+.valori-timeline-container .slick-next.slick-arrow {
+  display: block !important;
+  position: absolute;
+  right: 30px;
+  z-index: 99;
+  bottom: 60px;
+  background: transparent;
+  border: 1px solid #fff;
+  height: 90px;
+  width: 90px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 35px;
+  transform: rotate(90deg);
+  z-index: 99;
+}
+
+/* slick  */
+/*.valori-sliders .slick-prev {
+  display: none !important;
+}*/
+
+.valori-sliders {
+  position: relative;
+  margin-top: 8rem;
+  margin-left: 50px;
+}
+
+@media (min-width: 1559px) {
+  .valori-sliders {
+    margin-left: 190px;
+  }
+}
+
+.valori-sliders .slick-prev {
+  position: absolute;
+  right: 180px;
+  top: -160px;
+}
+
+.valori-sliders .slick-next {
+  position: absolute;
+  right: 80px;
+  top: -160px;
+}
+
+.valori-sliders .slick-next,
+.valori-sliders .slick-prev {
+  border: 1px solid;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 27px;
+}
+
+/* number-section styleing strat now */
+.section-padding-section-margin {
+  padding: 50px 0px;
+}
+
+.numberi-section-title {
+  margin: 20px 0px;
+}
+
+.numberi-section-title h2 {
+  font-size: 55px;
+  line-height: 60px;
+  color: #000000;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.numberi-section-title h2 span {
+  font-size: 55px;
+  line-height: 60px;
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.number-single-item {
+  padding: 20px;
+}
+
+.number-single-item h2 {
+  font-size: 165px;
+  line-height: 186px;
+  color: #343434;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+.number-single-item p {
+  font-size: 25px;
+  line-height: 35px;
+  color: #111111;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+}
+
+.number-single-item img {
+  margin: 0;
+  max-width: 100px;
+}
+
+.chi-siamo-number-slider {
+  position: relative;
+}
+
+.office_location_section .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chi-siamo-number-slider .slick-prev {
+  position: absolute;
+  right: 100px;
+  border: 1px solid #333;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: -100px;
+  font-size: 30px;
+  bottom: 15px;
+  z-index: 99;
+}
+
+.chi-siamo-number-slider .slick-next {
+  position: absolute;
+  right: 0;
+  border: 1px solid #333;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: -100px;
+  font-size: 30px;
+  bottom: 15px;
+}
+
+.chi-siamo-number-slider .number-single-item {
+  margin-bottom: 120px;
+}
+
+p.eu-scisiamo-small-section-title.more-left {
+  left: -45px;
+}
+
+/* responsive media query any devices   */
+
+@media only screen and (max-width: 1650px) {
+  .team-member-item {
+    height: 290px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .team-btn {
+    bottom: -150px;
+  }
+
+  .team-btn p {
+    line-height: 35px;
+  }
+
+  .team-button {
+    width: 54px;
+    height: 54px;
+    margin-left: 9px;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    font-size: 150px;
+    line-height: 125px;
+    margin-bottom: 60px;
+  }
+
+  .azienda-top-area .azienda-top-title span {
+    margin-bottom: 10px;
+  }
+
+  .azienda-section .eu-scisiamo-small-section-title {
+    left: -15px;
+  }
+
+  .azienda-top-area .azienda-subtitle {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .sedi-section-wrap h2,
+  .lesixp-section h2 {
+    font-size: 45px;
+  }
+
+  .valori-single-slider-item {
+    min-width: 325px;
+  }
+
+  .valori-single-info {
+    bottom: -198px;
+  }
+
+  p.eu-scisiamo-small-section-title.more-left {
+    left: -46px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    font-size: 70px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active:after {
+    bottom: -2px;
+    left: 110%;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 297px;
+  }
+
+  .persone-top-title {
+    bottom: -217px;
+  }
+
+  .persone-top-title h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .valori-single-item h1 {
+    font-size: 150px;
+  }
+
+  .valori-single-item p {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .valori-single-slider-item {
+    height: auto;
+    min-height: 400px;
+  }
+
+  .r_vls_sl {
+    height: 700px;
+  }
+
+
+
+  .r_vls_sl {
+    padding-left: 55px;
+  }
+
+  .r_vls_sl {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .valori-timeline-single-item p {
+    margin-top: 70px;
+  }
+
+  .number-single-item h2 {
+    font-size: 150px;
+    line-height: 150px;
+  }
+
+  .certificazioni-tab-section .nav button {
+    margin-right: 72px;
+  }
+
+  .certificazioni-tab-section .chi-siamo-mv-single.first-half button.active {
+    margin-right: 70px;
+  }
+
+  .number-single-item p {
+    font-size: 22px;
+  }
+
+  .valori-single-info p {
+    min-height: 125px;
+  }
+
+  .valori-single-info h4 {
+    font-size: 26px;
+  }
+
+  .chi-siamo-number-slider .number-single-item h2 {
+    font-size: 65px !important;
+    line-height: 1.2em !important;
+  }
+}
+
+@media only screen and (max-width: 1399.98px) {
+  .azienda-section .eu-scisiamo-small-section-title {
+    left: 0;
+  }
+
+  .persone.persone-section .eu-scisiamo-small-section-title,
+  .sedi.sedi-section .small-tilt,
+  .lesixp.lesixp-section .small-tilt {
+    left: 15px;
+  }
+
+  .valori .eu-scisiamo-small-section-title {
+    left: -25px;
+  }
+
+  .numeri-section p.eu-scisiamo-small-section-title.small-tilt {
+    left: -50px;
+  }
+
+  .sedi-section .small-tilt,
+  .lesixp.lesixp-section .small-tilt {
+    left: -20px !important;
+  }
+
+  /* top menu  */
+  .chi-siamo-nav-wrap ul li a {
+    padding: 5px 8px;
+  }
+
+  .azienda-top-area {
+    margin-left: 60px;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    font-size: 175px;
+    line-height: 150px;
+  }
+
+  .azienda-top-area .azienda-subtitle {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  /* persone  */
+
+  .persone-top-title {
+    bottom: -228px;
+  }
+
+  .persone-title {
+    font-size: 100px;
+    line-height: 105px;
+    max-width: 70%;
+  }
+
+  /* valori */
+
+  .valori-single-item h1 {
+    font-size: 175px;
+    line-height: 150px;
+    margin-bottom: 30px;
+  }
+
+  /* number slider  */
+  .number-single-item h2 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  .chi-siamo-number-slider .number-single-item h2 {
+    font-size: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .zienda-single-tab-content-wrap {
+    padding: 0 53px;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    font-size: 120px;
+    line-height: 105px;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    margin-bottom: 40px;
+  }
+
+  .azienda-top-area .azienda-subtitle {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button.active {
+    font-size: 30px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider p {
+    font-size: 25px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+
+  .sedi-section-wrap h2,
+  .lesixp-section h2 {
+    font-size: 35px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    font-size: 50px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active:after {
+    bottom: 5px;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 317px;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    font-size: 25px;
+  }
+
+  .chi-siamo-mv-single.second-half .tab-pane .mission-vission-single-tab {
+    margin-left: 55px;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    width: 310px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li p {
+    font-size: 30px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li img {
+    max-width: 50px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li {
+    padding: 15px;
+  }
+
+  .persone-top-title h2 {
+    font-size: 70px;
+    line-height: 70px;
+    min-width: 50%;
+  }
+
+  .valori-single-item h1 {
+    font-size: 120px;
+    line-height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .valori-single-item p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .number-single-item h2 {
+    font-size: 120px;
+    line-height: 130px;
+  }
+
+  .number-single-item p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .mission-vission-section {
+    height: 615px;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    height: 550px;
+  }
+
+  .chi-siamo-number-slider .number-single-item h2 {
+    font-size: 55px !important;
+    line-height: 1.1em !important;
+  }
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .azienda-top-area .azienda-top-title {
+    font-size: 135px;
+    line-height: 110px;
+  }
+
+  .azienda-top-area .azienda-subtitle {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .azienda-top-area {
+    margin-left: 70px;
+  }
+
+  .azienda-top-area h1.azienda-top-title span {
+    font-size: 34%;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    height: 750px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.first-block {
+    padding: 0 20px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.second-block {
+    padding: 0 20px;
+  }
+
+  /* sedi  | Mission vission */
+  .azienda-section .eu-scisiamo-small-section-title {
+    left: 0;
+  }
+
+  .persone.persone-section .eu-scisiamo-small-section-title,
+  .sedi.sedi-section .small-tilt,
+  .lesixp.lesixp-section .small-tilt {
+    left: 15px;
+  }
+
+  .valori .eu-scisiamo-small-section-title {
+    left: -25px;
+  }
+
+  .numeri-section p.eu-scisiamo-small-section-title.small-tilt {
+    left: -25px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    margin-right: 200px;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 175px;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    width: 253px;
+    margin-top: -125px;
+  }
+
+  /* LE6P */
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li p {
+    font-size: 35px;
+  }
+
+  /* valori  */
+
+  .valori-single-item h1 {
+    font-size: 135px;
+    line-height: 110px;
+  }
+
+  .valori-single-item p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* number slider  */
+  .number-single-item h2 {
+    font-size: 135px;
+    line-height: 140px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .azienda-top-area .azienda-top-title {
+    font-size: 80px;
+    line-height: 65px;
+  }
+
+  .azienda-top-area .azienda-subtitle {
+    font-size: 25px;
+    line-height: 26px;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    margin-bottom: 25px;
+  }
+
+  .azienda-top-area .azienda-top-title span {
+    margin-bottom: 15px;
+  }
+
+  .azienda-top-area {
+    margin-bottom: 0px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.second-block ul li {
+    font-size: 18px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button.active {
+    font-size: 25px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider p {
+    font-size: 22px;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    min-height: 530px;
+  }
+
+  .sedi-section-wrap h2,
+  .lesixp-section h2 {
+    font-size: 30px;
+  }
+
+  .chi-siamo-mv-single.second-half .tab-pane .mission-vission-single-tab {
+    margin-bottom: 0;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    font-size: 50px;
+  }
+
+  .lesixp-list-item-section {
+    min-height: 618px;
+  }
+
+  .sesixp-list-wrap {
+    padding-top: 50px;
+  }
+
+  .persone-top-title h2 {
+    font-size: 50px;
+    line-height: 50px;
+    min-width: 30%;
+  }
+
+  .persone-top-title {
+    bottom: -58px;
+  }
+
+  .team-members {
+    margin-top: 115px;
+  }
+
+  .valori-single-item h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  .valori-single-item p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .valori-single-item h1 {
+    margin-bottom: 10px;
+  }
+
+  p.eu-scisiamo-small-section-title.more-left {
+    left: -55px;
+  }
+
+  .numeri-section p.eu-scisiamo-small-section-title.small-tilt {
+    left: -52px;
+  }
+
+  .valori-timeline-single-item p {
+    margin-top: 27px;
+  }
+
+  .r_vls_sl {
+    padding-left: 45px;
+  }
+
+  .r_vls_sl {
+    padding-top: 50px;
+  }
+
+
+  .r_vls_sl {
+    padding: 50px;
+  }
+
+  .valori-timeline-single-item h2 {
+    font-size: 40px;
+  }
+
+  .valori-timeline-single-item h2 span {
+    font-size: 40px;
+  }
+
+  .numberi-section-title h2 {
+    font-size: 40px;
+  }
+
+  .numberi-section-title h2 span {
+    font-size: 40px;
+  }
+
+  .number-single-item h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .chi-siamo-number-slider .slick-next,
+  .chi-siamo-number-slider .slick-prev {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+  }
+
+  .chi-siamo-number-slider .slick-prev {
+    right: 75px;
+  }
+
+  .valori-timeline-container .slick-next.slick-arrow,
+  .valori-timeline-container .slick-prev.slick-arrow {
+    height: 60px;
+    width: 60px;
+  }
+
+  .valori-single-slider-item {
+    min-width: 285px;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  p.eu-scisiamo-small-section-title.small-tilt {
+    display: none !important;
+  }
+
+  .azienda-top-area .azienda-top-title {
+    font-size: 100px;
+    line-height: 85px;
+  }
+
+  .azienda-top-area {
+    margin-left: 75px;
+  }
+
+  .azienda-top-area h1.azienda-top-title span {
+    font-size: 30%;
+  }
+
+  .azienda-top-area p.azienda-subtitle {
+    font-size: 25px;
+  }
+
+  /* .zienda-single-tab-content-wrap{
+        align-items: ce
+    } */
+
+  .azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li button.active {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    min-height: 600px;
+  }
+
+  .mission-vission-section {
+    height: 700px;
+  }
+
+  .align-items-start {
+    flex-direction: column;
+  }
+
+  .chi-siamo-mv-single {
+    width: 100%;
+  }
+
+  .chi-siamo-mv-single {
+    align-items: center;
+  }
+
+  .chi-siamo-mv-single.second-half .tab-pane.active {
+    background-size: cover;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    max-width: 80%;
+    width: 100%;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-bottom: 15px;
+    margin-right: 90px;
+  }
+
+  .chi-siamo-mv-single.first-half button:last-child {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    width: 253px;
+    margin-top: -80px;
+    width: 400px !important;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-bottom: 35px;
+  }
+
+  /* LEPE */
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li p {
+    font-size: 28px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li {
+    padding: 15px;
+  }
+
+  /* persone / team  */
+
+  .persone-title {
+    font-size: 75px;
+    line-height: 85px;
+  }
+
+  .persone-top-title {
+    bottom: -187px;
+  }
+
+  /* valori  */
+
+  .valori-single-item h1 {
+    font-size: 100px;
+  }
+
+  .valori-single-item p {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 500px;
+  }
+
+  .valori-single-slider-item {
+    min-width: 370px;
+    height: 420px;
+    margin-right: 15px;
+  }
+
+  /* number slider  */
+
+  .number-single-item h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .chi-siamo-number-slider .slick-next,
+  .chi-siamo-number-slider .slick-prev {
+    height: 60px;
+    width: 60px;
+    margin-top: -120px;
+    font-size: 20px;
+  }
+
+  .persone-top-title {
+    bottom: -109px;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 232px;
+  }
+
+  .chi-siamo-mv-single.first-half {
+    height: 320px;
+  }
+
+  .chi-siamo-mv-single.second-half .tab-pane.active {
+    background-image: none;
+    justify-content: center;
+  }
+
+  .team-member-title span {
+    font-size: 50px;
+    line-height: 65px;
+    display: block;
+  }
+
+  .team-member-title {
+    font-size: 50px;
+  }
+
+  .valori-single-slider-item {
+    min-width: 370px;
+    max-width: 390px;
+    min-height: 350px !important;
+    height: 350px !important;
+  }
+
+  .valori-single-info {
+    bottom: -172px;
+  }
+
+  .valori-sliders .slick-next,
+  .valori-sliders .slick-prev {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    right: 50px
+  }
+
+  .valori-sliders .slick-prev {
+    right: 130px;
+  }
+
+  .chi-siamo-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .r_vls_sl {
+    height: 600px;
+    width: 100%;
+    float: none;
+  }
+
+  .r_vls_right.r_vls_sl {
+    height: 380px;
+  }
+
+  .azienda-top-area .azienda-top-title span {
+    margin-left: 5px;
+  }
+
+  .azienda-top-area .azienda-top-title span {
+    margin-bottom: 5px;
+  }
+
+
+  .chi-siamo-nav-wrap {
+    text-align: center;
+  }
+
+  /* top navigation are  */
+  .chi-siamo-nav-wrap ul li a {
+    padding: 5px 10px;
+  }
+
+  /* first section  */
+  .azienda-section .container,
+  .container-sm {
+    max-width: inherit;
+  }
+
+  .azienda-top-area {
+    margin-left: 0;
+  }
+
+  .azienda-tabs-section .azienda-tabs-wrap ul.nav-tabs li {
+    width: 100%;
+    display: inherit;
+    justify-content: left;
+  }
+
+  .zienda-single-tab-content-wrap {
+    display: inherit;
+  }
+
+  .azienda-top-area h1.azienda-top-title {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .persone-top-title {
+    margin-left: 0;
+    bottom: -125px;
+    left: 0;
+  }
+
+  .persone-title {
+    max-width: 100%;
+    font-size: 50px;
+    line-height: 63px;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    font-size: 50px;
+    margin-right: 55px;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    margin-left: 15px;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li svg {
+    font-size: 30px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li p.description {
+    font-size: 16px;
+  }
+
+  .azienda-top-area h1.azienda-top-title span {
+    font-size: 28%;
+  }
+
+  .azienda-top-area p.azienda-subtitle {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    min-height: 550px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.first-block {
+    margin-right: unset;
+    margin-bottom: 30px;
+  }
+
+  .mission-vission-section {
+    height: 600px;
+  }
+
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 0;
+  }
+
+  .chi-siamo-mv-single.first-half button.active:after {
+    content: none;
+  }
+
+  .chi-siamo-mv-single.first-half button.active {
+    font-size: 35px;
+  }
+
+  .chi-siamo-mv-single.second-half .mission-vission-single-tab p {
+    margin-top: 0;
+    max-width: 226px;
+    padding-bottom: 42px;
+  }
+
+  .lesixp-section .container {
+    margin-top: 5rem !important;
+  }
+
+  p#lexisp {
+    top: 70px;
+  }
+
+  .numeri-section p.eu-scisiamo-small-section-title.small-tilt {
+    left: 15px;
+  }
+
+  .sedi-section-wrap h2,
+  .lesixp-section h2 {
+    font-size: 30px;
+  }
+
+  .lesixp-list-item-section {
+    height: auto;
+  }
+
+  .lesixp-list-item-section .container {
+    margin-top: 0 !important;
+  }
+
+  #persone,
+  .azienda-section .eu-scisiamo-small-section-title {
+    left: 0;
+  }
+
+  .persone-title {
+    max-width: 70%;
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: 15%;
+  }
+
+  .persone-top-title {
+    bottom: -100px;
+  }
+
+  .valori>p.eu-scisiamo-small-section-title.small-tilt {
+    top: 0;
+    left: 15px;
+  }
+
+  .valori-timeline-single-item p {
+    margin-top: 27px;
+    font-size: 16px;
+    height: 400px;
+    overflow-x: scroll;
+  }
+
+  /* LE6P */
+  .sesixp-list-wrap {
+    padding-top: 0px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li p {
+    font-size: 30px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li {
+    display: inherit;
+    padding: 15px;
+    padding-left: 40px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li.show {
+    padding-left: 70px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li.show svg {
+    padding-left: 30px;
+  }
+
+  .lesixp-section-wrap {
+    margin-bottom: 40px;
+  }
+
+  /* mission vission  */
+  .chi-siamo-mv-single.first-half button {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  /* team  */
+
+  .team-member-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .team-member-title span {
+    font-size: 100%;
+    display: block;
+  }
+
+  .team-members {
+    margin-top: 190px;
+  }
+
+  /* number slider section  */
+  .numberi-section-title h2 span {
+    font-size: 38px;
+    line-height: 40px;
+    display: inline-block;
+  }
+
+  .numberi-section-title h2 {
+    font-size: 32px;
+    line-height: 60px;
+  }
+
+  .number-single-item h2 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+
+  .number-single-item p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .chi-siamo-number-slider .slick-next,
+  .chi-siamo-number-slider .slick-prev {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  }
+
+  .chi-siamo-number-slider .number-single-item {
+    margin-bottom: 88px;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li img {
+    position: absolute;
+    left: 0;
+  }
+
+  .lesixp-list-item-section .sesixp-list-wrap ul li {
+    padding-left: 60px;
+  }
+
+  .valori-single-slider-item {
+    max-width: unset;
+  }
+
+  .valori-slider {
+    margin: 0 15px;
+  }
+
+  .valori-single-slider-item {
+    margin-right: 0;
+  }
+
+  .valori-timeline-single-item {
+    width: 100%;
+  }
+
+  .valori-timeline-container:after {
+    /* content: none; */
+    width: 100%;
+    top: 100%;
+  }
+
+  .valori-timeline-container .slick-next.slick-arrow {
+    right: 30px;
+    bottom: 30px;
+    transform: inherit;
+  }
+
+  .valori-timeline-container .slick-prev.slick-arrow {
+    right: inherit;
+    top: inherit;
+    bottom: 30px;
+    left: 30px;
+    transform: inherit;
+  }
+
+  section#numeri {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* .section-padding {
+    padding: 25px 0;
+  } */
+
+  .chi-siamo-mv-single.second-half .tab-pane .mission-vission-single-tab {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.first-block {
+    padding-top: 20px;
+  }
+
+  .team-bottom-title {
+    padding-left: 15px;
+  }
+
+  .zienda-single-tab-content-wrap .azienda-single-slider.second-block ul {
+    column-count: 1;
+  }
+
+  .valori-timeline-container::after {
+    height: 375px;
+  }
+
+  .operiamo-circle-slider-wrap .c-economy__image img {
+    max-width: 80px;
+  }
+
+  .chi-siamo-number-slider .number-single-item h2 {
+    font-size: 45px !important;
+    line-height: .5em !important;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .azienda-top-area {
+    margin-left: 0;
+  }
+
+  .sedi-section-wrap h2,
+  .lesixp-section h2 {
+    font-size: 22px;
+  }
+
+  .azienda-top-area h1.azienda-top-title span {
+    font-size: 25%;
+  }
+
+  .azienda-tabs-wrap .tab-content .tab-pane {
+    min-height: 500px;
+  }
+}
+
+/* 
+================================
+Operiamo  
+================================
+*/
+
+.valori-single-item.vantaggi p {
+  font-size: 29px;
+  line-height: 35px;
+}
+
+#vantaggi p {
+  text-transform: inherit;
+}
+
+.brand-dim-gray {
+  background-color: var(--brand-dim-gray-color);
+}
+
+.height-hundred-percent {
+  height: 100%;
+}
+
+.has-bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* First section / circle slider  */
+
+.c-icon-button__icon img {
+  max-width: 15px;
+  margin-top: 10px;
+}
+
+.c-icon-button--rounded:before {
+  background-color: transparent !important;
+}
+
+.operiamo-circle-slider-wrap .c-economy__image img {
+  max-width: 200px;
+}
+
+.operiamo-circle-slider-wrap ul.c-economy__list .c-economy__item {
+  max-width: 580px;
+}
+
+.operiamo-circle-slider-wrap ul.c-economy__list .c-economy__item .t-h2 {
+  font-size: 76px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.operiamo-circle-slider-wrap ul.c-economy__list .c-economy__item .u-wysiwyg p {
+  font-size: 29px;
+  font-family: var(--brand-font-family);
+  font-weight: 200;
+  line-height: 30px;
+  color: #121212;
+}
+
+.c-icon-button__icon img {
+  max-width: 15px;
+  margin-top: 10px;
+}
+
+.c-icon-button--rounded:before {
+  background: transparent;
+}
+
+/*
+section.operiamo-circle-slider-wrap {
+  pointer-events: none;
+}*/
+
+.operiamo-cirle-single-item.first {
+  background-image: url(../images/Operiamo/operiamo-circle-slider-bg.png);
+  background-position: left center;
+}
+
+.operiamo-circle-slider .operiamo-cirle-single-item .box-wrap {
+  height: 780px;
+  width: 780px;
+  /* background: #c51d69; */
+  background-image: url(../images/Operiamo/temp-circle-bg.html);
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.operiamo-cirle-single-item.second h2 {
+  font-size: 76px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.operiamo-cirle-single-item.second p {
+  font-size: 29px;
+  font-family: "IBM Plex Sans";
+}
+
+.operiamo-circle-slider {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.operiamo-cirle-single-item.first {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.operiamo-cirle-single-item .box-wrap {
+  position: relative;
+}
+
+.operiamo-cirle-single-item .box-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -75px;
+}
+
+.operiamo-cirle-single-item.second {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.operiamo-cirle-single-item.second>* {
+  width: 50%;
+  margin-left: 25%;
+}
